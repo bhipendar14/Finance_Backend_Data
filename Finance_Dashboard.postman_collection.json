@@ -153,7 +153,7 @@
     "variable": [
         {
             "key": "baseUrl",
-            "value": "http://localhost:5000"
+            "value": "https://finance-backend-data.onrender.com"
         },
         {
             "key": "token",

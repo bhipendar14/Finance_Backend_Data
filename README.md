@@ -2,6 +2,14 @@
 
 A backend-only finance dashboard system built with Node.js, Express.js, and MongoDB.
 
+🚀 **Live API Base URL:** [https://finance-backend-data.onrender.com](https://finance-backend-data.onrender.com)
+
+💡 **How to Test:**  
+Since this is a backend-only application, there is no graphical user interface. You can test the endpoints using Postman.
+1. Download the included `Finance_Dashboard.postman_collection.json` file.
+2. Import it into Postman.
+3. The collection is already pre-configured to point to the live Render URL. Easily run endpoints by generating a Token via Register/Login first!
+
 ## Features
 
 - User & Role Management (Viewer, Analyst, Admin)
