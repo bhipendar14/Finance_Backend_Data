@@ -10,6 +10,19 @@ Since this is a backend-only application, there is no graphical user interface. 
 2. Import it into Postman.
 3. The collection is already pre-configured to point to the live Render URL. Easily run endpoints by generating a Token via Register/Login first!
 
+## API Testing Screenshots
+
+Here are tests of the fully functioning backend APIs running perfectly on Postman:
+
+**1. Register User** 
+![Register User](assets/register.png)
+
+**2. Login User**
+![Login User](assets/login.png)
+
+**3. Authorized User Creates Record** (Using Bearer Token)
+![Authorized Request](assets/records.png)
+
 ## Features
 
 - User & Role Management (Viewer, Analyst, Admin)
