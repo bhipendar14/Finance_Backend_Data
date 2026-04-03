@@ -12,6 +12,11 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+// Root Route
+app.get('/', (req, res) => {
+    res.json({ message: 'Welcome to the Finance Dashboard API! Please use the /api routes as specified in the documentation.' });
+});
+
 // Routes
 app.use('/api/auth', require('./routes/authRoutes'));
 app.use('/api/records', require('./routes/recordRoutes'));
